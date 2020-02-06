@@ -14,130 +14,114 @@ public class FrequencyTable {
 
     private String makeChart(){
         String result = "";
-        result += "1 - 10 | " + count1() + "\n11 - 20 | " + count10() + "\n21 - 30 | " + count20()
-                + "\n31 - 40 | " + count30() + "\n41 - 50 | " + count40() + "\n51 - 60 | " + count50()
-                + "\n61 - 70 | " + count60() + "\n71 - 80 | " + count70() + "\n81 - 90 | " + count80()
-                + "\n91 - 100| " + count90();
+        result += "1 - 10 |" + count1() + "\n11 - 20 |" + count10();
+        result += "\n21 - 30 |" + count20() + "\n31 - 40 |" + count30();
+        result += "\n41 - 50 |" + count40() + "\n51 - 60 |" + count50();
+        result += "\n61 - 70 |" + count60() + "\n71 - 80 |" + count70();
+        result += "\n81 - 90 |" + count80() + "\n91 - 100|" + count90();
         return result;
     }
 
-    private String count(){
-        String count = "";
+
+   private String count1(){
+        String count1 = "";
         for (int i = 0; i < list.length; i++) {
-
-        }
-    }
-
-    //count 1-10
-    private String count1(){
-        String ones = "";
-        for (int i = 0; i < list.length; i++){
             if (list[i] <= 10){
-                ones += "* ";
+                count1 += "* ";
             }
         }
-        return ones;
+        return count1;
     }
 
-    //count 11-20
     private String count10(){
-        String tens = "";
-        for (int i = 0; i < list.length; i++){
-            if (list[i] <= 20){
-                tens += "* ";
-            }
-        }
-        return tens;
+       String count10 = "";
+       for (int i = 0; i < list.length; i++){
+           if (list[i] <= 20 && list[i] > 10){
+               count10 += "* ";
+           }
+       }
+       return count10;
     }
 
-    //count 21-30
     private String count20(){
-        String twenty = "";
-        for (int i = 0; i < list.length; i++){
-            if (list[i] <= 30){
-                twenty += "* ";
-            }
-        }
-        return twenty;
+       String count20 = "";
+       for (int i = 0; i < list.length; i++){
+           if (list[i] > 20 && list[i] <= 30){
+               count20 += "* ";
+           }
+       }
+       return count20;
     }
 
-    //count 31-40
     private String count30(){
-        String thirty = "";
-        for (int i = 0; i < list.length; i++){
-            if (list[i] <= 40){
-                thirty += "* ";
-            }
-        }
-        return thirty;
+       String count30 = "";
+       for (int i = 0; i < list.length; i++){
+           if (list[i] > 30 && list[i] <= 40){
+               count30 += "* ";
+           }
+       }
+       return count30;
     }
 
-    //count 41-50
     private String count40(){
-        String forty = "";
-        for (int i = 0; i < list.length; i++){
-            if (list[i] <= 50){
-                forty += "* ";
-            }
-        }
-        return forty;
+       String count40 = "";
+       for (int i = 0; i < list.length; i++){
+           if (list[i] > 40 && list[i] <= 50){
+               count40 += "* ";
+           }
+       }
+       return count40;
     }
 
-    //count 51-60
     private String count50(){
-        String fifty = "";
-        for (int i = 0; i < list.length; i++){
-            if (list[i] <= 60){
-                fifty += "* ";
-            }
-        }
-        return fifty;
+       String count50 = "";
+       for (int i = 0; i < list.length; i++){
+           if (list[i] > 50 && list[i] <= 60){
+               count50 += "* ";
+           }
+       }
+       return count50;
     }
 
-    //count 61-70
     private String count60(){
-        String sixty = "";
-        for (int i = 0; i < list.length; i++){
-            if (list[i] <= 70){
-                sixty += "* ";
-            }
-        }
-        return sixty;
+       String count60 = "";
+       for (int i = 0; i < list.length; i++){
+           if (list[i] > 60 && list[i] <= 70){
+               count60 += "* ";
+           }
+       }
+       return count60;
     }
 
-    //count 71-80
     private String count70(){
-        String seventy = "";
-        for (int i = 0; i < list.length; i++){
-            if (list[i] <= 80){
-                seventy += "* ";
-            }
-        }
-        return seventy;
+       String count70 = "";
+       for (int i = 0; i < list.length; i++){
+           if (list[i] > 70 && list[i] <= 80){
+               count70 += "* ";
+           }
+       }
+       return count70;
     }
 
-    //count 81-90
     private String count80(){
-        String eighty = "";
+        String count80 = "";
         for (int i = 0; i < list.length; i++){
-            if (list[i] <= 90){
-                eighty += "* ";
+            if (list[i] > 80 && list[i] <= 90){
+                count80 += "* ";
             }
         }
-        return eighty;
+        return count80;
     }
 
-    //count 91-100
     private String count90(){
-        String ninety = "";
+        String count90 = "";
         for (int i = 0; i < list.length; i++){
-            if (list[i] <= 100){
-                ninety += "* ";
+            if (list[i] > 90 && list[i] <= 100){
+                count90 += "* ";
             }
         }
-        return ninety;
+        return count90;
     }
-
     //end class stuff
     //main method
     public static void main(String [] args){
