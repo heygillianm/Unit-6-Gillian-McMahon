@@ -22,5 +22,13 @@ public class MusicLibraryClient {
         System.out.println(myLibrary);
 
         System.out.println("+++++++++++++++++++++++++++++++++++++++");
+
+        int loc = myLibrary.findTitle("Space Cadet");
+        int loc2 = myLibrary.findArtist("Pearl Jam");
+
+        System.out.println("Found title at index " + loc);
+        System.out.println(myLibrary.getAlbum(loc));
+        System.out.println("Found artist at index " + loc2);
+        System.out.println(myLibrary.getAlbum(loc2));
     }
 }

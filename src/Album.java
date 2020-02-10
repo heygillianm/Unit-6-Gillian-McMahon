@@ -11,6 +11,14 @@ public class Album {
         playTime = time;
     }
 
+    public String getTitle(){
+        return title;
+    }
+
+    public String getArtist(){
+        return artist;
+    }
+
     //check to see if tracks and playtime printer work with Noah
     public String toString(){
         String result = "";
