@@ -69,11 +69,78 @@ public class MusicLibrary {
         }
     }
 
-    public void selectionSort(String title){
-        int name, temp;
+    public void sortByTitle(){
+        Album temp;
+        int min;
+        for (int i = 0; i < albums.length - 1; i++) {
+            min = i;
+            for(int scan = i + 1; scan < albums.length; scan++){
+                if (albums[scan] != null){
+                    if(albums[scan].getTitle().compareTo(albums[min].getTitle()) < 0){
+                        min = scan;
+                    }
+                }
+            }
+            temp = albums[min];
+            albums[min] = albums[i];
+            albums[i] = temp;
+        }
+    }
 
-        for (int i = 0; i < albums.length - 1; i++){
+    public void sortByArtist(){
+        for (int i = 1; i < albums.length; i++){
+            Album key = albums[i];
+            int pos = i;
 
+            if (albums[pos] != null){
+                while (pos > 0 && albums[pos - 1].getArtist().compareTo(key.getArtist()) > 0){
+                    albums[pos] = albums[pos - 1];
+                    pos--;
+                }
+            }
+            albums[pos] = key;
+        }
+    }
+
+    public int findTitle2(String title){
+        sortByTitle();
+        int low = 0, high = albums.length - 1, middle = (low + high/2);
+
+        while (albums[middle] != null && !albums[middle].getTitle().equals(title) && low <= high){
+            if (albums[middle].getTitle().compareTo(title) > 0){
+                high = middle - 1;
+            }
+            else {
+                low = middle + 1;
+            }
+            middle = (low + high/2);
+        }
+        if (albums[middle] != null && albums[middle].getTitle().equals(title)){
+            return middle;
+        }
+        else {
+            return -1;
+        }
+    }
+
+    public int findArtist2(String artist){
+        sortByArtist();
+        int low = 0, high = albums.length - 1, middle = (low + high/2);
+
+        while (albums[middle] != null && !albums[middle].getArtist().equals(artist) && low <= high){
+            if (albums[middle].getArtist().compareTo(artist) > 0){
+                high = middle - 1;
+            }
+            else {
+                low = middle + 1;
+            }
+            middle = (low + high/2);
+        }
+        if (albums[middle] != null && albums[middle].getArtist().equals(artist)){
+            return middle;
+        }
+        else {
+            return -1;
         }
     }
 }
