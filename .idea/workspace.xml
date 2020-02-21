@@ -2,14 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3266a037-eef2-4484-905a-471415aae15d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyArrayLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Purse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PurseAndCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/ColorChooser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/DigitalPicture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/FileChooser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/ImageDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/IntArrayWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/IntArrayWorkerTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/PictureExplorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/PictureFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/PictureTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/Pixel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/SimplePicture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/ColorChooser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/DigitalPicture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/FileChooser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/ImageDisplay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/IntArrayWorker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/IntArrayWorkerTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/Picture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/PictureExplorer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/PictureFrame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/PictureTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/Pixel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/SimplePicture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/resources/inherit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/doc/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/leftArrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/classes/rightArrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/640x480.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/7inX95in.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/CumberlandIsland.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/KatieFancy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/arch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/barbaraS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/beach.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/blue-mark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/blueMotorcycle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/butterfly1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/caterpillar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/femaleLionAndHall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/flower1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/flower2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/gorge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/jenny-red.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/kitten2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/koala.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/moon-surface.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/msg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/redMotorcycle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/robot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/seagull.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/snowman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/swan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/temple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/thruDoor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/wall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/water.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pixLab/images/whiteFlower.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayLists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Purse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Purse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aPerson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,20 +94,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XAZLF9QJg3Lw3OfzKtF8ON40CR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.aPerson">
-    <configuration name="MyArray2DExplorer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyArray2DExplorer" />
+  <component name="RunManager" selected="Application.PurseAndCoins">
+    <configuration name="ColorChooser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ColorChooser" />
       <module name="Unit-6-Gillian-McMahon" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.aPerson" />
         <item itemvalue="Application.PurseAndCoins" />
+        <item itemvalue="Application.aPerson" />
+        <item itemvalue="Application.ColorChooser" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.MyArrayLists" />
-        <item itemvalue="Application.MyArray2DExplorer" />
       </list>
     </recent_temporary>
   </component>
@@ -149,52 +219,61 @@
       <option name="project" value="LOCAL" />
       <updated>1582091767601</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2/20/2020">
+      <created>1582219057039</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582219057039</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="new project" />
     <MESSAGE value="Finished Frequency Chart 2/6/2020" />
     <MESSAGE value="2/7/2020" />
     <MESSAGE value="2/10/2020" />
     <MESSAGE value="2/13/2020" />
     <MESSAGE value="2/18/2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="2/18/2020" />
+    <MESSAGE value="2/20/2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="2/20/2020" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="327" y="23" key="CommitChangelistDialog2" timestamp="1582091767377">
+    <state x="327" y="23" key="CommitChangelistDialog2" timestamp="1582219056824">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state x="327" y="23" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1582091767377" />
+    <state x="327" y="23" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1582219056824" />
     <state x="327" y="23" key="CommitChangelistDialog2/0.23.1440.814@0.23.1440.814" timestamp="1581616008375" />
-    <state width="1333" height="159" key="GridCell.Tab.0.bottom" timestamp="1582174793751">
+    <state width="1333" height="159" key="GridCell.Tab.0.bottom" timestamp="1582302819750">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1333" height="159" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1582174793751" />
-    <state width="1333" height="159" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1582174764431" />
-    <state width="1333" height="159" key="GridCell.Tab.0.center" timestamp="1582174793749">
+    <state width="1333" height="159" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1582302819750" />
+    <state width="1333" height="159" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1582220828252" />
+    <state width="1333" height="159" key="GridCell.Tab.0.center" timestamp="1582302819749">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1333" height="159" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1582174793749" />
-    <state width="1333" height="159" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1582174764429" />
-    <state width="1333" height="159" key="GridCell.Tab.0.left" timestamp="1582174793748">
+    <state width="1333" height="159" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1582302819749" />
+    <state width="1333" height="159" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1582220828243" />
+    <state width="1333" height="159" key="GridCell.Tab.0.left" timestamp="1582302819749">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1333" height="159" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1582174793748" />
-    <state width="1333" height="159" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1582174764429" />
-    <state width="1333" height="159" key="GridCell.Tab.0.right" timestamp="1582174793750">
+    <state width="1333" height="159" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1582302819749" />
+    <state width="1333" height="159" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1582220828230" />
+    <state width="1333" height="159" key="GridCell.Tab.0.right" timestamp="1582302819750">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1333" height="159" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1582174793750" />
-    <state width="1333" height="159" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1582174764430" />
+    <state width="1333" height="159" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1582302819750" />
+    <state width="1333" height="159" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1582220828251" />
     <state x="249" y="47" key="SettingsEditor" timestamp="1580491118933">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="249" y="47" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1580491118933" />
-    <state x="339" y="147" key="Vcs.Push.Dialog.v2" timestamp="1582091769180">
+    <state x="339" y="147" key="Vcs.Push.Dialog.v2" timestamp="1582219058843">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state x="339" y="147" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1582091769180" />
+    <state x="339" y="147" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1582219058843" />
     <state x="339" y="147" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1581616012094" />
     <state x="398" y="29" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582138158258">
       <screen x="0" y="23" width="1440" height="812" />
