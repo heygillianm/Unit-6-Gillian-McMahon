@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Purse {
     private ArrayList<Coin> coins;
@@ -25,8 +26,10 @@ public class Purse {
     // (both myName & myValue)
    public int count(Coin aCoin) {
         int i = 0;
+        Iterator<Coin> itr = aCoin.iterator();
         while (i < coins.size()){
-            if (coins.get(i).getName() == aCoin.getName() && coins.get(i).getValue() == aCoin.getValue()){
+            if (coins.get(i).getName() == aCoin.getName()
+                    && coins.get(i).getValue() == aCoin.getValue()){
                 i++;
             }
         }

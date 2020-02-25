@@ -1,17 +1,20 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class aPerson {
 
     public static String findMin(ArrayList<Person> list){
         int i = 0;
         int min = 10000;
-        while (i < list.size()){
-            if (list.get(i).getAge() < min){
+        Iterator<Person> itr = list.iterator();
+        while (itr.hasNext()){
+            if (itr.next().getAge() < min){
                 min = list.get(i).getAge();
             }
         }
         return list.get(i).getName();
     }
+
 
     public static void main (String [] args){
         ArrayList<Person> list = new ArrayList<Person>();
@@ -22,6 +25,6 @@ public class aPerson {
         list.add(abigail);
         list.add(sebastian);
 
-        System.out.println(findMin(list));
+        System.out.println("The person with the youngest age is: " + findMin(list));
     }
 }

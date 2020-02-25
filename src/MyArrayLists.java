@@ -51,6 +51,9 @@ public class MyArrayLists {
         }
     }
 
+    //Write a method named countLetters that is passed an ArrayList parameter named list that
+    // contains String object references. The method must count up & return the number of characters
+    // (letters, digits, blank spaces, etc.) in all of the strings of list.
     public static int countLetters(ArrayList list){
         int i = 0;
         while (i < list.size()){
@@ -63,6 +66,10 @@ public class MyArrayLists {
         return i;
     }
 
+    //Write a method named findPosition that accepts two parameters, an int named keyValue and an array list of
+    // Integer's named list. The method must return the first subscript position within list in which keyValue is
+    // found.
+    // If keyValue is not stored in list, return the value -1.
     public static int findPosition(int keyValue, ArrayList list){
         int i = 0;
         while (i < list.size()){
@@ -74,6 +81,10 @@ public class MyArrayLists {
         return -1;
     }
 
+    //Write a method named parseIntoArrayList that accepts a string parameter named input.
+    // The method must break input up into individual letters & store each letter into an ArrayList of strings
+    // that is instantiated as a local variable.
+    // The new ArrayList must then be returned.
     public static ArrayList parseIntoArray (String input) {
         ArrayList<String> parse = new ArrayList<String>();
         for (int a = 0; a < input.length(); a++) {

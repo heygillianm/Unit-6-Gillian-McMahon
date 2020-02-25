@@ -24,7 +24,7 @@ public class Array2DExplorer {
                 if (nums[col][i] % 2 != 0){
                     count++;
                 }
-                if (count == nums[col].length){
+                if (count == nums[c][col]){
                     return true;
                 }
             }
@@ -62,13 +62,16 @@ public class Array2DExplorer {
         //searches through each column of an array and returns an array with the largest integer from each column.
         int[] maxArr = new int[matrix.length + 1];
         int max = 0;
+        int i = 0;
         for (int r = 0; r < matrix.length; r++){
             for (int c = 0; c < matrix[r].length; c++){
                 if (matrix[r][c] > max){
                     max = matrix[r][c];
-                    maxArr = matrix[r];
                 }
             }
+            maxArr[i] = max;
+            max = 0;
+            i++;
         }
         return maxArr;
     }
