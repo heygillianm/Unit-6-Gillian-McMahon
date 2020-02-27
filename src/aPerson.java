@@ -4,15 +4,15 @@ import java.util.Iterator;
 public class aPerson {
 
     public static String findMin(ArrayList<Person> list){
-        int i = 0;
-        int min = 10000;
-        Iterator<Person> itr = list.iterator();
-        while (itr.hasNext()){
-            if (itr.next().getAge() < min){
-                min = list.get(i).getAge();
+        Person peep = list.get(0);
+        for (Person p : list){
+            int age = p.getAge(); //age of current person
+            int minAge = peep.getAge(); //current min
+            if (age < minAge){
+                peep = p;
             }
         }
-        return list.get(i).getName();
+        return peep.getName();
     }
 
 

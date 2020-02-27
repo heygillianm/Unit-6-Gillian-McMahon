@@ -25,14 +25,12 @@ public class Purse {
     // returns the number of coins in the Purse that matches aCoin
     // (both myName & myValue)
    public int count(Coin aCoin) {
-        int i = 0;
-        Iterator<Coin> itr = aCoin.iterator();
-        while (i < coins.size()){
-            if (coins.get(i).getName() == aCoin.getName()
-                    && coins.get(i).getValue() == aCoin.getValue()){
-                i++;
-            }
-        }
-        return i;
-    }
+       int i = 0;
+       for (Coin c : coins) {
+           if (c.getValue() == aCoin.getValue() && c.getName() == aCoin.getName()) {
+               i++;
+           }
+       }
+       return i;
+   }
 }

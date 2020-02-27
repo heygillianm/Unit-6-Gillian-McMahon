@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3266a037-eef2-4484-905a-471415aae15d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array2DExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array2DExplorer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyArrayLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Purse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Purse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aPerson.java" afterDir="false" />
     </list>
@@ -38,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.aPerson">
+  <component name="RunManager" selected="Application.PurseAndCoins">
     <configuration name="ColorChooser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ColorChooser" />
       <module name="Unit-6-Gillian-McMahon" />
@@ -76,9 +74,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PurseAndCoins" />
         <item itemvalue="Application.aPerson" />
         <item itemvalue="Application.MyArrayLists" />
-        <item itemvalue="Application.PurseAndCoins" />
         <item itemvalue="Application.MyArray2DExplorer" />
         <item itemvalue="Application.ColorChooser" />
       </list>
@@ -163,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582303055887</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2/25/2020">
+      <created>1582653286967</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582653286967</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -176,42 +181,43 @@
     <MESSAGE value="2/18/2020" />
     <MESSAGE value="2/20/2020" />
     <MESSAGE value="2/21/2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="2/21/2020" />
+    <MESSAGE value="2/25/2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="2/25/2020" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="327" y="23" key="CommitChangelistDialog2" timestamp="1582303054429">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="327" y="23" key="CommitChangelistDialog2" timestamp="1582653286511">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state x="327" y="23" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1582219056824" />
+    <state x="327" y="23" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1582653286511" />
     <state x="327" y="23" key="CommitChangelistDialog2/0.23.1440.814@0.23.1440.814" timestamp="1582303054429" />
-    <state width="1333" height="167" key="GridCell.Tab.0.bottom" timestamp="1582653149851">
+    <state width="1333" height="167" key="GridCell.Tab.0.bottom" timestamp="1582822052749">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1333" height="167" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1582653149851" />
+    <state width="1333" height="167" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1582822052749" />
     <state width="1333" height="159" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1582303100343" />
-    <state width="1333" height="167" key="GridCell.Tab.0.center" timestamp="1582653149847">
+    <state width="1333" height="167" key="GridCell.Tab.0.center" timestamp="1582822052748">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1333" height="167" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1582653149847" />
+    <state width="1333" height="167" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1582822052748" />
     <state width="1333" height="159" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1582303100342" />
-    <state width="1333" height="167" key="GridCell.Tab.0.left" timestamp="1582653149842">
+    <state width="1333" height="167" key="GridCell.Tab.0.left" timestamp="1582822052747">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1333" height="167" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1582653149842" />
+    <state width="1333" height="167" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1582822052747" />
     <state width="1333" height="159" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1582303100341" />
-    <state width="1333" height="167" key="GridCell.Tab.0.right" timestamp="1582653149850">
+    <state width="1333" height="167" key="GridCell.Tab.0.right" timestamp="1582822052749">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1333" height="167" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1582653149850" />
+    <state width="1333" height="167" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1582822052749" />
     <state width="1333" height="159" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1582303100343" />
     <state x="249" y="47" key="SettingsEditor" timestamp="1580491118933">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="249" y="47" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1580491118933" />
-    <state x="339" y="147" key="Vcs.Push.Dialog.v2" timestamp="1582303066699">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="339" y="147" key="Vcs.Push.Dialog.v2" timestamp="1582653292332">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state x="339" y="147" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1582219058843" />
+    <state x="339" y="147" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1582653292332" />
     <state x="339" y="147" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1582303066699" />
     <state x="398" y="29" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582138158258">
       <screen x="0" y="23" width="1440" height="812" />
